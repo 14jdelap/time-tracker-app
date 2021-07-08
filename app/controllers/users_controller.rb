@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :authenticate_user, only: [:show, :update]
-  
+
   def create
   new_user = User.new(user_params)
 
@@ -12,7 +12,7 @@ class UsersController < ApplicationController
   end
 
   def test
-  end 
+  end
 
   def show
     render json: {id: current_user.id, name: current_user.name, email: current_user.email}

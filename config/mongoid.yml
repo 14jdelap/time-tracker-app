@@ -1,7 +1,7 @@
 development:
   clients:
     default:
-      uri: mongodb+srv://aneeshPatel:Monisha0u!@cluster0.hbwxg.mongodb.net/TimeTrackingData?retryWrites=true&w=majority
+      uri: mongodb+srv://14jdelap:fibzow-1Feqce-cartih@cluster0.tdwqo.mongodb.net/TimeTrackingData
       options:
         server_selection_timeout: 5
 test:
